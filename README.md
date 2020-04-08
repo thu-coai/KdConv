@@ -1,6 +1,6 @@
 # KdConv
 
-KdConv is a Chinese multi-domain **K**nowledge-**d**rIVEn **Conv**ersionSation dataset, grounding the topics in multi-turn conversations to knowledge graphs. KdConv contains **4.5K** conversations from **three** domains (film, music, and travel), and **86K** utterances with an average turn number of **19.0**. These conversations contain in-depth discussions on related topics and natural transition between multiple topics, while the corpus can also used for exploration of transfer learning and domain adaptation.
+KdConv is a Chinese multi-domain **K**nowledge-**d**riven **Conv**ersionsation dataset, grounding the topics in multi-turn conversations to knowledge graphs. KdConv contains **4.5K** conversations from **three** domains (film, music, and travel), and **86K** utterances with an average turn number of **19.0**. These conversations contain in-depth discussions on related topics and natural transition between multiple topics, while the corpus can also used for exploration of transfer learning and domain adaptation.
 
 We provide several benchmark models to facilitate the following research on this corpus. (The benchmark codes will be released later)
 
@@ -12,8 +12,8 @@ If the corpus is helpful to your research, please kindly cite our paper:
 @inproceedings{zhou-etal-2020-kdconv,
     title = "{KdConv}: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation",
     author = "Zhou, Hao  and
-    	Zheng, Chujie  and
-    	Huang, Kaili	and
+      Zheng, Chujie  and
+      Huang, Kaili	and
       Huang, Minlie  and
       Zhu, Xiaoyan",
     booktitle = "Proceedings of the 58th Conference of the Association for Computational Linguistics",
