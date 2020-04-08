@@ -13,7 +13,7 @@ If the corpus is helpful to your research, please kindly cite our paper:
     title = "{KdConv}: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation",
     author = "Zhou, Hao  and
       Zheng, Chujie  and
-      Huang, Kaili	and
+      Huang, Kaili   and
       Huang, Minlie  and
       Zhu, Xiaoyan",
     booktitle = "Proceedings of the 58th Conference of the Association for Computational Linguistics",
