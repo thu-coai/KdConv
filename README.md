@@ -4,6 +4,8 @@ KdConv is a Chinese multi-domain **K**nowledge-**d**riven **Conv**ersionsation d
 
 We provide several benchmark models to facilitate the following research on this corpus. (The benchmark codes will be released later)
 
+Our paper on [arXiv](https://arxiv.org/abs/2004.04100).
+
 If you have any question, feel free to open an issue.
 
 If the corpus is helpful to your research, please kindly cite our paper:
