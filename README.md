@@ -4,23 +4,24 @@ KdConv is a Chinese multi-domain **K**nowledge-**d**riven **Conv**ersionsation d
 
 We provide several benchmark models to facilitate the following research on this corpus. (The benchmark codes will be released later)
 
-Our paper on [arXiv](https://arxiv.org/abs/2004.04100).
-
-If you have any question, feel free to open an issue.
-
-If the corpus is helpful to your research, please kindly cite our paper:
+Our paper on [arXiv](https://arxiv.org/abs/2004.04100) and [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.635/). If the corpus is helpful to your research, please kindly cite our paper:
 
 ```
 @inproceedings{zhou-etal-2020-kdconv,
-    title = "{KdConv}: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation",
+    title = "{K}d{C}onv: A {C}hinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation",
     author = "Zhou, Hao  and
       Zheng, Chujie  and
-      Huang, Kaili   and
+      Huang, Kaili  and
       Huang, Minlie  and
       Zhu, Xiaoyan",
-    booktitle = "Proceedings of the 58th Conference of the Association for Computational Linguistics",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
     month = jul,
     year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.635",
+    doi = "10.18653/v1/2020.acl-main.635",
+    pages = "7098--7108",
 }
 ```
 
