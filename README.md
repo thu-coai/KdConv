@@ -35,6 +35,8 @@ Each utterance in the conversation is annotated with referred knowledge graph tr
 
 ## Data
 
+(You may need need the [Tencent Pretrained Word Embedding](https://ai.tencent.com/ailab/nlp/en/embedding.html) we used in experiments.)
+
 The data files are in the `./data` folder. It contains three domains film/music/travel, and each domain folder includes split sets  `train/dev/test.json` and the corresponding knowledge base file `kb_DOMAIN.json` that was used to collect and construct the corpus. 
 
 We take the music domain for instance. After loading `train.json`, you will get a list of conversations. Each conversation looks like the following:
