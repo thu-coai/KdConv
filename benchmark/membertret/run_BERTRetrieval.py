@@ -132,12 +132,12 @@ def preprocess_batch(data, device=None):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--bert_config_file", default="/home/zhengchujie/bert_torch/chinese_wwm_pytorch/bert_config.json",
+    parser.add_argument("--bert_config_file", default="chinese_wwm_pytorch/bert_config.json",
                         type=str, help="The config json file corresponding to the pre-trained BERT model. "
                                        "This specifies the model architecture.")
-    parser.add_argument("--vocab_file", default="/home/zhengchujie/bert_torch/chinese_wwm_pytorch/vocab.txt", type=str,
+    parser.add_argument("--vocab_file", default="chinese_wwm_pytorch/vocab.txt", type=str,
                         help="The vocabulary file that the BERT model was trained on.")
-    parser.add_argument("--init_checkpoint", default="/home/zhengchujie/bert_torch/chinese_wwm_pytorch/pytorch_model.bin",
+    parser.add_argument("--init_checkpoint", default="chinese_wwm_pytorch/pytorch_model.bin",
                         type=str, help="Initial checkpoint (usually from a pre-trained BERT model).")
 
     ## Required parameters
