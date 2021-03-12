@@ -132,7 +132,7 @@ class HredModel(object):
 		self.kg_loss = tf.reduce_sum(- tf.log(tf.clip_by_value(kg_alignment, 1e-12, 1.0)) * self.kgs_index, axis=1) / tf.maximum(tf.reduce_sum(self.kgs_index, axis=1), tf.ones([batch_size], dtype=tf.float32))
 		self.kg_loss = tf.reduce_mean(self.kg_loss)
 
-		self.knowledge_embed = tf.reduce_sum(tf.expand_dims(kg_alignment, axis=-1) * self.kg_value_avg * tf.cast(kg_num_mask, tf.float32), axis=1)
+		self.knowledge_embed = tf.reduce_sum(tf.expand_dims(kg_alignment, axis=-1) * self.kg_value_avg, axis=1)
 		#self.knowledge_embed = tf.Print(self.knowledge_embed, ['acc', self.kg_acc, 'loss', self.kg_loss])
 		knowledge_embed_extend = tf.tile(tf.expand_dims(self.knowledge_embed, axis=1), [1, decoder_len, 1])
 		self.decoder_input = tf.concat([self.decoder_input, knowledge_embed_extend], axis=2)
