@@ -6,7 +6,7 @@ We provide several benchmark models to facilitate the following research on this
 
 Our paper on [arXiv](https://arxiv.org/abs/2004.04100) and [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.635/). If the corpus is helpful to your research, please kindly cite our paper:
 
-```
+```bib
 @inproceedings{zhou-etal-2020-kdconv,
     title = "{K}d{C}onv: A {C}hinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation",
     author = "Zhou, Hao  and
