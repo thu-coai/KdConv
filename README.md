@@ -14,14 +14,8 @@ Our paper on [arXiv](https://arxiv.org/abs/2004.04100) and [ACL Anthology](https
       Huang, Kaili  and
       Huang, Minlie  and
       Zhu, Xiaoyan",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.635",
-    doi = "10.18653/v1/2020.acl-main.635",
-    pages = "7098--7108",
+    booktitle = "ACL",
+    year = "2020"
 }
 ```
 
